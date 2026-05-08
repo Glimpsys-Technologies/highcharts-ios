@@ -11,8 +11,9 @@ Pod::Spec.new do |s|
    s.license   =  { :type =>'Custom', :file => "LICENSE" }
    
    s.author             = "Highsoft"
-   s.source       = { :git => "https://github.com/highcharts/highcharts-ios.git", :tag => "v12.0.2" }
+   s.source       = { :git => "https://github.com/Glimpsys-Technologies/highcharts-ios.git", :branch => "master" }
    s.ios.deployment_target = '12.0'
 
    s.ios.vendored_frameworks = 'Highcharts.xcframework'
+   s.resources = 'Highcharts.xcframework/ios-arm64/Highcharts.framework/com.highcharts.charts.bundle'
 end
